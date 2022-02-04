@@ -17,7 +17,7 @@ def renewTor():
     controller.signal(Signal.NEWNYM)
 
 def showIP():
-    print(urlopen('http://icanhazip.com').read())
+    print(urlopen('https://icanhazip.com').read())
 
 for i in range(5):
     renewTor()
